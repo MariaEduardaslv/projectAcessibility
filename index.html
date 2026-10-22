@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>+Acessibilidade</title>
+<meta name="description" content="Plataforma de acessibilidade para a sala de aula presencial: legenda ao vivo, descrição de slides, escrita convertida em voz e tradução em Libras.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%231d4ed8'/%3E%3Cpath d='M8 9h16v10H14l-6 4z' fill='none' stroke='white' stroke-width='2' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip" href="#principal">Pular para o conteúdo</a>
+
+<header class="top">
+  <div class="wrap top__row">
+    <a class="brand" href="#inicio" aria-label="+Acessibilidade, início">
+      <span class="brand__mark" aria-hidden="true">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v10H9l-5 4z"/><path d="M8 9h8M8 12h5"/></svg>
+      </span>
+      +Acessibilidade
+    </a>
+    <nav class="menu" aria-label="Menu principal">
+      <a href="#demo">Demonstração</a>
+      <a href="#recursos">Recursos</a>
+      <a href="#projeto">Projeto no GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<main id="principal">
+
+  <section id="inicio" class="hero">
+    <div class="wrap hero__grid">
+      <div class="hero__text">
+        <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span>Sebrae Supernova · piloto na UNICRUZ</p>
+        <h1>Uma aula em que <em>todos</em> acompanham e participam.</h1>
+        <p class="lead">Legenda em tempo real, descrição de slides por IA, escrita convertida em voz, tradução em Libras e um canal direto do estudante para o professor. Tudo em um só lugar.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#demo">Ver a demonstração</a>
+          <a class="btn btn--ghost" href="#projeto">Ver o código</a>
+        </div>
+        <ul class="badges" aria-label="Destaques">
+          <li>Libras</li>
+          <li>Legenda ao vivo</li>
+          <li>Leitor de tela</li>
+          <li>LGPD</li>
+        </ul>
+      </div>
+
+      <div class="hero__art" aria-hidden="true">
+        <div class="art__card art__card--main">
+          <span class="art__live"><i></i>Ao vivo</span>
+          <p class="art__cap art__cap--old">Design Thinking é uma forma de resolver problemas.</p>
+          <p class="art__cap art__cap--now">O processo tem cinco etapas: empatizar, definir, idear, prototipar e testar.</p>
+        </div>
+        <div class="art__card art__card--libras">
+          <span class="art__avatar">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="7" r="3.2"/><path d="M5 21v-3a7 7 0 0 1 14 0v3"/></svg>
+          </span>
+          <span><strong>VLibras</strong><br>Tradução em Libras</span>
+        </div>
+        <div class="art__card art__card--ask">
+          <span class="art__who">A</span>
+          <span>Pode repetir a etapa Definir?</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="recursos" class="wrap block">
+    <p class="kicker">Recursos</p>
+    <h2>O que a plataforma faz</h2>
+    <ul class="cards">
+      <li class="card">
+        <span class="card__icon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M7 11h4M13 11h4M7 15h6"/></svg></span>
+        <h3>Legenda ao vivo</h3><p>A fala do professor vira texto na tela do estudante, com letras ajustáveis.</p>
+      </li>
+      <li class="card">
+        <span class="card__icon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></span>
+        <h3>Descrição de slides</h3><p>Gráficos e imagens são descritos em texto e em áudio. O professor revisa antes de enviar.</p>
+      </li>
+      <li class="card">
+        <span class="card__icon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>
+        <h3>Escrever e falar</h3><p>O estudante digita e a mensagem vira voz, ou vai direto para o painel do professor.</p>
+      </li>
+      <li class="card">
+        <span class="card__icon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="7" r="3.2"/><path d="M5 21v-3a7 7 0 0 1 14 0v3"/></svg></span>
+        <h3>Libras com VLibras</h3><p>O widget gratuito do governo federal traduz o texto da página para Libras.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="demo" class="band">
+   <div class="wrap block">
+    <p class="kicker">Demonstração</p>
+    <h2>Veja funcionando</h2>
+    <p class="muted">Simulação para o pitch. Os dados são de exemplo e nada é enviado a servidor.</p>
+
+    <div class="demo">
+      <div class="phone" role="region" aria-label="Aplicativo do estudante (simulação)">
+        <div class="phone__head">
+          <div>
+            <p class="live"><span class="dot" aria-hidden="true"></span>Ao vivo <span class="muted">· código DT-2041</span></p>
+            <h3>Introdução ao Design Thinking</h3>
+          </div>
+          <button id="btn-big" class="icon-btn" type="button" aria-pressed="true" aria-label="Texto maior">Aa</button>
+        </div>
+
+        <div class="phone__body">
+
+          <div id="panel-aula" role="tabpanel" aria-labelledby="tab-aula">
+            <p class="label">Fala do professor</p>
+            <div id="captions" aria-live="polite"></div>
+            <p class="note">Transcrição automática. Pode conter pequenos erros.</p>
+          </div>
+
+          <div id="panel-descrever" role="tabpanel" aria-labelledby="tab-descrever" hidden>
+            <p class="label">Agora no projetor</p>
+            <div class="slide" role="img" aria-label="Miniatura do slide atual: diagrama com cinco etapas do Design Thinking">
+              <p class="slide__title">Etapas do Design Thinking</p>
+              <ol class="steps">
+                <li><span>1</span>Empatizar</li>
+                <li><span>2</span>Definir</li>
+                <li><span>3</span>Idear</li>
+                <li><span>4</span>Prototipar</li>
+                <li><span>5</span>Testar</li>
+              </ol>
+            </div>
+            <span class="chip">Descrição gerada por IA</span>
+            <p id="desc-text" class="desc">Diagrama com cinco etapas em sequência, da esquerda para a direita: Empatizar, Definir, Idear, Prototipar e Testar. Uma seta de retorno liga o fim ao começo, indicando que o processo pode ser repetido.</p>
+            <button id="btn-listen" class="btn btn--primary btn--block" type="button">Ouvir descrição</button>
+            <button id="btn-more" class="btn btn--text btn--block" type="button">Pedir mais detalhes</button>
+          </div>
+
+          <div id="panel-escrever" role="tabpanel" aria-labelledby="tab-escrever" hidden>
+            <label class="label" for="msg">Sua mensagem</label>
+            <textarea id="msg" rows="3"></textarea>
+            <p class="label">Frases rápidas</p>
+            <div class="chips" id="phrases"></div>
+            <button id="btn-speak" class="btn btn--primary btn--block" type="button">Falar em voz alta</button>
+            <button id="btn-send" class="btn btn--soft btn--block" type="button">Enviar ao professor</button>
+            <div id="sent" aria-live="polite"></div>
+          </div>
+
+        </div>
+
+        <div class="quick" id="quick">
+          <p class="label">Avisar o professor</p>
+          <div class="quick__row">
+            <button type="button" data-msg="Pedido enviado ao professor: repetir a última explicação.">Repetir</button>
+            <button type="button" data-msg="Pedido enviado ao professor: falar mais devagar.">Mais devagar</button>
+            <button type="button" data-msg="Aviso enviado: você tem uma dúvida. O professor verá no painel.">Tenho dúvida</button>
+          </div>
+        </div>
+
+        <p id="toast" class="toast" role="status" hidden></p>
+
+        <div class="tabs" role="tablist" aria-label="Menu do aplicativo">
+          <button id="tab-aula" role="tab" type="button" aria-selected="true" aria-controls="panel-aula" data-panel="aula">Aula</button>
+          <button id="tab-descrever" role="tab" type="button" aria-selected="false" aria-controls="panel-descrever" data-panel="descrever" tabindex="-1">Descrever</button>
+          <button id="tab-escrever" role="tab" type="button" aria-selected="false" aria-controls="panel-escrever" data-panel="escrever" tabindex="-1">Escrever</button>
+        </div>
+      </div>
+
+      <aside class="teacher" aria-label="Painel do professor (simulação)">
+        <h3>Painel do professor</h3>
+        <p class="muted"><span id="open-count">3</span> perguntas abertas · 12 estudantes conectados</p>
+        <ul id="questions" class="questions"></ul>
+        <p class="note">O painel mostra números agregados e não o perfil de cada estudante.</p>
+      </aside>
+    </div>
+   </div>
+  </section>
+
+  <section id="projeto" class="wrap block">
+    <p class="kicker">Código aberto</p>
+    <h2>Projeto no GitHub</h2>
+    <p class="muted">Estes dados são lidos ao vivo da API pública do GitHub. Configure o usuário e o repositório em <code>js/config.js</code>.</p>
+    <div id="gh" class="gh" aria-live="polite">
+      <p class="muted">Carregando dados do repositório…</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p>+Acessibilidade · Projeto desenvolvido para o Sebrae Supernova, com a UNICRUZ como piloto.</p>
+    <p class="note">Tradução em Libras pelo VLibras, serviço gratuito do Governo Federal.</p>
+  </div>
+</footer>
+
+<!-- VLibras: widget oficial do Governo Federal (gratuito). Verifique o código atual em gov.br/governodigital/pt-br/vlibras -->
+<div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+  </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js" defer></script>
+<script defer>
+  window.addEventListener('load', function () {
+    if (window.VLibras && window.VLibras.Widget) {
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    }
+  });
+</script>
+
+<script src="js/config.js"></script>
+<script src="js/app.js" defer></script>
+<script src="js/github.js" defer></script>
+</body>
+</html>
